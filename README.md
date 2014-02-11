@@ -5,7 +5,7 @@ Coffeelint configuration file used in SPHERE.IO coffeescript projects.
 
 ## Setup
 
-Add dependency to github repo [sphere-coffeelint](https://github.com/sphereio/sphere-coffeelint) in your npm config. (*package.json*).
+Add a dependency to github repo [sphere-coffeelint](https://github.com/sphereio/sphere-coffeelint) in your npm config (*package.json*).
 
 ```
   ...
