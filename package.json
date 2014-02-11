@@ -1,0 +1,10 @@
+{
+  "name": "sphere-coffeelint",
+  "description": "Coffeelint configuration file used in SPHERE.IO coffeescript projects.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url":  "git://github.com/sphereio/sphere-coffeelint.git"
+  },
+  "private": true
+}
