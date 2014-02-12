@@ -1,7 +1,7 @@
 sphere-coffeelint
 =================
 
-Hosted coffeelint configuration file used in all SPHERE.IO coffeescript projects. To use the hosted *coffeelint.json* in another node project, make to follow given steps.
+Hosted coffeelint configuration file used in all SPHERE.IO coffeescript projects. To use the hosted *coffeelint.json* in another node project, make sure to follow given steps.
 
 ## Setup
 
