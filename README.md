@@ -1,27 +1,27 @@
 sphere-coffeelint
 =================
 
-Coffeelint configuration file used in SPHERE.IO coffeescript projects.
+Hosted coffeelint configuration file used in all SPHERE.IO coffeescript projects. To use the hosted *coffeelint.json* in another node project, make to follow given steps.
 
 ## Setup
 
-Add a dependency to github repo [sphere-coffeelint](https://github.com/sphereio/sphere-coffeelint) in your npm config (*package.json*).
+* Add a module dependency to github repo [sphere-coffeelint](https://github.com/sphereio/sphere-coffeelint) in your npm config (*package.json*).
 
-```
-  ...
-  "devDependencies": {
-    ...
-    "sphere-coffeelint": "git://github.com/sphereio/sphere-coffeelint.git#master"
-  }
-  ..
-```
+            ...
+            "devDependencies": {
+              ...
+              "sphere-coffeelint": "git://github.com/sphereio/sphere-coffeelint.git#master"
+            }
+            ...
 
-Configure coffeelint to use the file *coffeelint.json* from module *sphere-coffeelint*.
+* update project dependencies to download *sphere-coffeelint* module to *node_modules/ folder*
 
-```javascipt
-  ...
-  coffeelint:
-    options: grunt.file.readJSON('node_modules/sphere-coffeelint/coffeelint.json')
-    default: ["Gruntfile.coffee", "src/**/*.coffee"]
-  ...
-```
+            npm install
+
+* Configure coffeelint to use the file *coffeelint.json* from module *sphere-coffeelint*.
+
+            ...
+            coffeelint:
+              options: grunt.file.readJSON('node_modules/sphere-coffeelint/coffeelint.json')
+              default: ["Gruntfile.coffee", "src/**/*.coffee"]
+            ...
