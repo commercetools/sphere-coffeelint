@@ -14,7 +14,7 @@ Hosted coffeelint configuration file used in all SPHERE.IO coffeescript projects
             }
             ...
 
-* update project dependencies to download *sphere-coffeelint* module to *node_modules/ folder*
+* update project dependencies (npm downloads the newly added *sphere-coffeelint* module to *node_modules/*)
 
             npm install
 
