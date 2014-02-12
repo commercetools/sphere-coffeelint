@@ -18,7 +18,7 @@ Hosted coffeelint configuration file used in all SPHERE.IO coffeescript projects
 
             npm install
 
-* Configure coffeelint to use the file *coffeelint.json* from module *sphere-coffeelint*.
+* Configure coffeelint to use the file *coffeelint.json* located in *sphere-coffeelint* module.
 
             ...
             coffeelint:
