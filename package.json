@@ -6,5 +6,10 @@
     "type": "git",
     "url":  "git://github.com/sphereio/sphere-coffeelint.git"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.9",
+    "grunt-coffeelint": "~0.0.7"
+  }
 }
