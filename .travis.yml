@@ -6,9 +6,10 @@ script:
 notifications:
   hipchat:
     rooms:
-      secure:
+      secure: H2pUgPgTrqBMLp62s5cfWOkaSZrhdLMWgjPoTHmDr9JFX9FnX4HfZjhjkJNNUivLf69I3LV9JolysDT8yXtyFLfmHI4HMMwBepH+WIAw5ZAMRGLKsh/mZ9duZJoPVs7L/Ght7ZcWwlDaU819BMHySo8+ji4pPzTOXJUsejBfL6o=
     template:
-    - '%{repository}#%{build_number} (%{author}): %{message} (<a href="%{build_url}">Details</a>/<a href="%{compare_url}">Compare</a>)'
+    - ! '%{repository}#%{build_number} (%{author}): %{message} (<a href="%{build_url}">Details</a>/<a
+      href="%{compare_url}">Compare</a>)'
     format: html
     on_success: change
     on_failure: change
