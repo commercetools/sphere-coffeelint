@@ -1,6 +1,8 @@
 sphere-coffeelint
 =================
 
+[![Build Status](https://travis-ci.org/sphereio/sphere-coffeelint.png?branch=master)](https://travis-ci.org/sphereio/sphere-coffeelint)
+
 Hosted coffeelint configuration file used in all SPHERE.IO coffeescript projects. To use the hosted *coffeelint.json* in another node project, make sure to follow given steps.
 
 ## Setup
